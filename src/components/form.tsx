@@ -176,7 +176,10 @@ export default function Form() {
   };
 
   return (
-    <section className="absolute inset-0 flex flex-col justify-between p-24">
+    <section className="absolute inset-0 flex flex-col justify-between p-8">
+      <h1 className="text-3xl font-medium capitalize mb-8 text-center py-4">
+        React Hook Multistep Form
+      </h1>
       <nav aria-label="Progress">
         <ol role="list" className="space-y-4 md:flex md:space-x-8 md:space-y-0">
           {steps.map((step, index) => (
