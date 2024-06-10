@@ -176,7 +176,7 @@ export default function Form() {
   };
 
   return (
-    <section className="absolute inset-0 flex flex-col justify-between p-8">
+    <section className="absolute inset-0 flex flex-col justify-between p-12">
       <h1 className="text-3xl font-medium capitalize mb-8 text-center py-4">
         React Hook Multistep Form
       </h1>
@@ -442,7 +442,7 @@ export default function Form() {
         )}
       </form>
 
-      <div className="mt-8 pt-5">
+      <div className="mt-4 pt-4 mb-4">
         <div className="flex justify-between">
           <button
             type="button"
