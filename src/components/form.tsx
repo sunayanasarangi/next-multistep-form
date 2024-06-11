@@ -177,7 +177,7 @@ export default function Form() {
 
   return (
     <section className="absolute inset-0 flex flex-col justify-between px-8 py-24">
-      <div className="relative mt-24 p-4 border rounded-lg bg-slate-200">
+      <div className="relative mt-24 p-4 border rounded-lg bg-gray-100">
         <nav aria-label="Progress">
           <ol
             role="list"
