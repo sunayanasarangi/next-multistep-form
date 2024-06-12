@@ -40,9 +40,7 @@ export default function Form() {
       const toastMessage = serverErrors.join("\n");
       toast.error(toastMessage, { duration: 6000 });
     }
-
-    return () => setServerError([]);
-  }, [serverErrors.length]);
+  }, [serverErrors]);
 
   const {
     register,
@@ -148,6 +146,7 @@ export default function Form() {
       setServerFormErrors(formActionResult.errors);
     } else {
       console.log(formActionResult.user);
+      setServerError([]);
       reset();
     }
     return;
