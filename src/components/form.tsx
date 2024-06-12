@@ -5,7 +5,7 @@ import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
 import { FormDataSchema } from "@/lib/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { onFormAction } from "@/app/actions/_onFormAction";
+import { onFormAction } from "@/actions/_onFormAction";
 import toast from "react-hot-toast";
 import { Inputs, ServerErrors } from "@/utilities/types";
 import { motion } from "framer-motion";
